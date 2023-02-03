@@ -1,0 +1,13 @@
+.discription-video{
+   padding: 10px;
+}
+.discription-video h5{
+    color: grey;
+}
+
+.videoWrapper{
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+}

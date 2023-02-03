@@ -1,0 +1,19 @@
+.video-holder,
+.saved{
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.video-holder:hover{
+    transform: scale(1.05);
+}
+.img{
+    width: 100%;
+    object-fit:cover;
+    border-radius: 15px;
+}
+.discription{
+    padding: 10px;
+}

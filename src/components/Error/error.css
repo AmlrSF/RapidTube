@@ -1,0 +1,12 @@
+.error{
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.error-info h1,
+.error-info h2{
+    font-size: 5rem;
+}

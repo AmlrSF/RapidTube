@@ -1,0 +1,12 @@
+.categories{
+    display: flex;
+    gap:5px;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    overflow-x: auto;
+}
+
+.category{
+    border: 0;
+    
+}

@@ -1,0 +1,13 @@
+.main-content{
+    margin-top:20px;
+    min-height: 70vh;
+    width: 100%;
+    
+}
+.holder{
+    height:70vh;
+    width:100%;
+    display: grid;
+    place-items: center;
+}
+

@@ -1,0 +1,32 @@
+.footer{
+    background-color: black;
+}
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li i {
+    font-size: 22px;
+    color: #fff;
+}
+.footer ul li a{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 35px;
+    cursor: pointer;
+    width: 35px;
+    display: grid;
+    place-content: center;
+    transition: 0.3s;
+}
+.footer ul li:hover a{
+    background-color: #fff;
+}
+
+.footer ul li:nth-child(1):hover a i{
+    color: #3b5998 ;
+}
+
+.footer ul li:nth-child(2):hover a i{
+    color: #00acee;
+}

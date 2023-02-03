@@ -1,0 +1,48 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:#fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.logo i{
+    color: red;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.logo i::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    z-index: -99;
+    width: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color: #fff;
+}
+nav .btn{
+    background-color: red;
+    color: #fff;
+}
+nav{
+    padding: 10px 0;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:767px) {
+    nav .conatiner{
+        justify-content: center !important;
+        flex-direction: column;
+    }
+}

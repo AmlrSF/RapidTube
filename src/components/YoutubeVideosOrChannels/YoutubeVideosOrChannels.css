@@ -1,0 +1,7 @@
+.videoWrapper{
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    padding-bottom: 100px;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+}

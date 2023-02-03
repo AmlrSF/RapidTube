@@ -1,0 +1,12 @@
+.Channel-info img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.logo-channel{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
